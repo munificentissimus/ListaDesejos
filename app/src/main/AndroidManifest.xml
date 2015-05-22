@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.atps.anhanguera.dispositivosmoveis.listadesejos" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_wish"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DetalhesDesejoActivity"
+            android:label="@string/titulo_detalhes_desejo" >
+        </activity>
+        <activity
+            android:name=".InserirDesejosActivity"
+            android:label="@string/titulo_inserir_desejo" >
+        </activity>
+        <activity android:name=".AlterarDesejoActivity" android:label="@string/titulo_alterar_desejo">
+        </activity>
+    </application>
+
+</manifest>

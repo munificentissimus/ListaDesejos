@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="br.com.atps.anhanguera.dispositivosmoveis.listadesejos.DetalhesDesejoActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rtlProduto"
+        android:id="@+id/rtlProduto"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Galaxy Note 8"
+        android:id="@+id/txtNomeProduto"
+        android:layout_below="@+id/rtlProduto"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblCategoria"
+        android:id="@+id/rtlCategoria"
+        android:layout_below="@+id/txtNomeProduto"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tablet"
+        android:id="@+id/txtCategoria"
+        android:layout_below="@+id/rtlCategoria"
+        android:layout_alignLeft="@+id/txtNomeProduto"
+        android:layout_alignStart="@+id/txtNomeProduto" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rtlPrecoMinimo"
+        android:id="@+id/rtlTextoMinimo"
+        android:layout_below="@+id/txtCategoria"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="R$ 800,00"
+        android:id="@+id/txtPrecoMinimo"
+        android:layout_below="@+id/rtlTextoMinimo"
+        android:layout_alignLeft="@+id/txtCategoria"
+        android:layout_alignStart="@+id/txtCategoria" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rtlPrecoMaximo"
+        android:id="@+id/rtlPrecoMaximo"
+        android:layout_below="@+id/txtPrecoMinimo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="R$ 1100,00"
+        android:id="@+id/txtPrecoMaximo"
+        android:layout_below="@+id/rtlPrecoMaximo"
+        android:layout_alignLeft="@+id/txtPrecoMinimo"
+        android:layout_alignStart="@+id/txtPrecoMinimo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rtlLojas"
+        android:id="@+id/textView"
+        android:layout_below="@+id/txtPrecoMaximo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Americanas\nSubmarino"
+        android:id="@+id/txtLojas"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/txtPrecoMaximo"
+        android:layout_alignStart="@+id/txtPrecoMaximo" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buscape_logo"
+        android:src="@drawable/buscape"
+        android:layout_below="@+id/txtLojas"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginTop="65dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar produto no"
+        android:id="@+id/textView2"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/txtLojas"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

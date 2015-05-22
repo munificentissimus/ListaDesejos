@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Lista de Desejos</string>
+
+    <string name="titulo_detalhes_desejo">Detalhes do Desejo</string>
+    <string name="titulo_inserir_desejo">Inserir Desejo</string>
+    <string name="titulo_alterar_desejo">Alterar Desejo</string>
+    <string name="titulo_excluir_desejo">Excluir Desejo</string>
+    <string name="titulo_desfazer">Desfazer alterações</string>
+    <string name="titulo_compartilhar_desejos">Desfazer alterações</string>
+    <string name="titulo_lista_desejos">Lista de Desejos</string>
+    <string name="rtlProduto">Produto:</string>
+    <string name="lblCategoria">Categoria:</string>
+    <string name="rtlPrecoMinimo">Preço Mínimo:</string>
+    <string name="rtlPrecoMaximo">Preço Máximo:</string>
+    <string name="rtlLojas">Lojas:</string>
+    <string name="acao_inserir">Inserir</string>
+    <string name="acao_alterar">Alterar</string>
+    <string name="acao_detalhar">Detalhar</string>
+
+</resources>
